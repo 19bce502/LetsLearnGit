@@ -9,7 +9,7 @@ app.use('/',(req,res,next)=>{
     });
 app.use('/add-product',(req,res,next)=>{
 console.log('Add product page ');
-res.send('<h1>This is product page</h1>')
+res.send('<h1>This is product page u can visit</h1>')
 next();
 });
 
